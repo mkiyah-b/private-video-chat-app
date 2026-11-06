@@ -1,10 +1,16 @@
 body, html {
-    background-color: lightblue;
+    /* background-color: rgb(141, 177, 116); */
+    overflow: hidden;
 }
-
-#main {
+html {
+    background-image: url('background.jpg');
+}
+body {
     height: 100vh;
     width: 100vw;
+}
+#main {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +18,47 @@ body, html {
 
 #videoStuff {
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+#vidBorder {
+    background-color: rgb(141, 177, 116);
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+#bee {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: -1;
+    height: 250px;
+    object-fit: cover;
+}
+#ladybug {
+    position: absolute;
+    height: 80px;
+    object-fit: cover;
+    left: 90%;
+    top: 85%;
+    z-index: -1;
+    rotate:-30deg;
+}
+
+#connector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+h1 {
+    justify-content: center;
+    text-align: center;
+    color: rgb(66, 104, 19);
 }

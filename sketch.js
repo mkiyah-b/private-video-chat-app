@@ -10,7 +10,7 @@ connect.addEventListener('click', function(e) {
 })
 
 function setup() {
-  cnv = createCanvas(400, 400);
+  cnv = createCanvas(800, 500);
     cnv.parent(videoStuff)
 }
 
@@ -30,14 +30,16 @@ function draw() {
   background(220);
   stroke(255);
   if (myVideo != null) {
-    image(myVideo,0,0,width/2,height);
-    text("My Video", 10, 10);
+    image(myVideo,0,0,width/2,height, 0,0);
+    text("My Video", 10, 20);
+    fill(255);
   }
   
 
   if (otherVideo != null) {
     image(otherVideo,width/2,0,width/2,height);
-    text("Their Video", width/2+10, 10);
+    text("Their Video", width/2+10, 20);
+    fill(255);
   }  
 }
 
