@@ -10,7 +10,6 @@ body {
     width: 100vw;
 }
 #main {
-    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +42,7 @@ body {
 }
 #ladybug {
     position: absolute;
-    height: 80px;
+    height: 0px;
     object-fit: cover;
     left: 90%;
     top: 85%;
