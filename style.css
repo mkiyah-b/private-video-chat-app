@@ -10,7 +10,7 @@ body {
     width: 100vw;
 }
 #main {
-    
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
