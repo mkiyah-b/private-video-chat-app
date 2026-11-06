@@ -44,9 +44,9 @@ body {
     position: absolute;
     height: 80px;
     object-fit: cover;
-    right: 5%;
-    bottom: 5%;
-    z-index: 1;
+    right: 1%;
+    bottom: 1%;
+    z-index: -1;
     rotate:-30deg;
 }
 
