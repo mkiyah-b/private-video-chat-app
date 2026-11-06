@@ -42,11 +42,11 @@ body {
 }
 #ladybug {
     position: absolute;
-    height: 0px;
+    height: 80px;
     object-fit: cover;
-    left: 90%;
-    top: 85%;
-    z-index: -1;
+    right: 5%;
+    bottom: 5%;
+    z-index: 1;
     rotate:-30deg;
 }
 
